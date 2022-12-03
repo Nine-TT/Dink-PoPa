@@ -1,0 +1,10 @@
+.container-product-love {
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.active {
+    color: #e04530 !important;
+}

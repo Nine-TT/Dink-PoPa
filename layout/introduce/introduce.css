@@ -1,0 +1,26 @@
+.container-content-introduce {
+    width: 80%;
+    margin: 40px auto;
+}
+
+.introduce-container {
+    width: 100%;
+}
+
+.introduce-title {
+    font-size: 22px;
+    margin: 40px 0;
+}
+
+.introduce-title:hover {
+    color: #e04530;
+    cursor: pointer;
+}
+
+.content-intro p {
+    font-size: 20px;
+}
+
+.introduce_bg img {
+    width: 100% !important;
+}

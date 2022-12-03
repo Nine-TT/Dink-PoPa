@@ -1,0 +1,110 @@
+footer {
+    width: 100%;
+    background-color: #1b1b27;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-container {
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.time-open {
+    width: 30%;
+    text-align: center;
+}
+
+.time-open .icon i {
+    color: var(--Backgound-color);
+    font-size: 25px;
+}
+
+.time-open .title {
+    font-size: 22px;
+    color: #fff;
+    margin: 20px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.desc-time .week-day span:first-child {
+    color: #fff;
+}
+
+
+.desc-time .week-day span:last-child {
+    color: rgb(154, 152, 152);
+    margin-left: 10px;
+    opacity: .8;
+}
+
+.weekend {
+    margin-top: 10px;
+}
+
+.address {
+    color: #fff
+}
+
+.phone-number {
+    color: #fff;
+    margin-top: 10px;
+}
+
+.social ul {
+    display: flex;
+    justify-content: center;
+}
+
+.social ul li {
+    display: block;
+    list-style-type: none;
+    line-height: 40px;
+    width: 40px;
+    border: 1px solid #fff;
+    margin: 0 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.social ul li:hover {
+    background-color: #e04530;
+}
+
+.social ul li a {
+    color: #fff;
+}
+
+.copy-right-container {
+    width: 100%;
+    border-top: 1px dashed #333;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-copy {
+    margin: 20px 0px;
+}
+
+.content-copy span {
+    color: #fff;
+}
+
+.menu-page {
+    display: flex;
+    margin: 20px 0px;
+}
+
+.menu-page>div {
+    margin: 0 10px;
+}
+
+.menu-page>div>a {
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+}

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ma pi leng Drink</title>
+
+    <script src="../layout/home/main.js"></script>
+
+    <!-- css home -->
+    <link rel="stylesheet" href="../layout/footer/footer.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/response.css" />
+    <link rel="stylesheet" href="../layout/home/love-product.css" />
+    <link rel="stylesheet" href="../layout//product/products.css" />
+    <link rel="stylesheet" href="../layout/introduce/introduce.css" />
+    <link rel="stylesheet" href="../layout/contact/contact.css" />
+    <link rel="stylesheet" href="../layout/news/news.css" />
+    <link rel="stylesheet" href="../layout/home/main.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- fontawesome css -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.2.1/css/all.css"
+    />
+  </head>
+  <body>
+    <!-- nav start -->
+    <section class="nav">
+      <div class="nav-container">
+        <div class="info">
+          <span class="address">ĐC: Phenikaa university</span>
+          <span class="hotline">Hotline: 0866132301</span>
+        </div>
+        <div class="container-search-login">
+          <div class="search">
+            <input
+              type="text"
+              class="searchTerm"
+              placeholder="Tìm kiếm đồ uống"
+            />
+            <button type="submit" class="searchButton">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+          <div class="login">
+            <span><a href="">Đăng nhập</a></span>
+            <span>/</span>
+            <span><a href="">Đăng kí</a></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- nav-end -->
+
+    <!-- header start -->
+    <header>
+      <div class="nav-wrapper">
+        <div class="logo-container">
+          <img class="logo" src="../assets/images/logo.webp" alt="Logo" />
+        </div>
+        <nav>
+          <div class="nav-container">
+            <ul class="nav-tabs">
+              <li
+                class="nav-tab active-class"
+                onclick="clickTabMenuHeader('../layout/home/main.html')"
+              >
+                Trang chủ
+              </li>
+              <li
+                class="nav-tab tab-sub-menu active-class"
+                onclick="clickTabMenuHeader('../layout/product/products.html')"
+              >
+                Sản phẩm <i class="fa-solid fa-angle-down"></i>
+                <div class="sub-menu">
+                  <div class="menu-item">
+                    <div class="menu-title">Trà truyền thống</div>
+                    <ul>
+                      <li><a href="">Hồng trà</a></li>
+                      <li><a href="">Trà ô long</a></li>
+                      <li><a href="">Trà hoa nhài</a></li>
+                      <li><a href="">Trà truyền thống</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="menu-item">
+                    <div class="menu-title">Đồ uống nóng</div>
+                    <ul>
+                      <li><a href="">Coffe hokaido</a></li>
+                      <li><a href="">Trà ô long</a></li>
+                      <li><a href="">Trà hoa nhài</a></li>
+                      <li><a href="">Trà truyền thống</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li
+                class="nav-tab tab-sub-menu active-class"
+                onclick="clickTabMenuHeader('../layout/news/news.html')"
+              >
+                Tin tức <i class="fa-solid fa-angle-down"></i>
+                <div class="sub-menu-tt">
+                  <ul>
+                    <li><a href="">tin khuyến mãi</a></li>
+                    <li><a href="">Mẹo vặt</a></li>
+                    <li><a href="">Trà sữa ngon</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li
+                class="nav-tab active-class"
+                onclick="clickTabMenuHeader('../layout/introduce/introduce.html')"
+              >
+                Giới thiệu
+              </li>
+              <li
+                class="nav-tab active-class"
+                onclick="clickTabMenuHeader('../layout/contact/contact.html')"
+              >
+                Liên hệ
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="cart-container">
+          <i class="fa-solid fa-cart-shopping cart"></i>
+          <div class="cart-number">
+            <span id="header-product-amount"></span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+
+    <!-- main -->
+    <main id="main"></main>
+
+    <!-- footer -->
+    <div id="footer"></div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+      integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+  <script src="../js/app.js"></script>
+</html>

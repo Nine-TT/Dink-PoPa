@@ -1,0 +1,104 @@
+.address-title {
+    width: 80%;
+    margin: 40px auto;
+    font-size: 20px;
+}
+
+.contact-content-container {
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.address-item {
+    margin: 40px 0;
+}
+
+.address-name {
+    color: #e04530;
+    font-size: 20px;
+}
+
+.address-small {
+    margin: 15px 0;
+}
+
+.icon-contact {
+    color: #e04530;
+    font-size: 14px;
+}
+
+.text-span {
+    color: gray;
+    padding-left: 10px;
+}
+
+.contatc-time-open {
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.contatc-time-open span {
+    color: gray;
+}
+
+.contact-right {
+    margin-top: 40px;
+}
+
+.form-contact {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.input-name {
+    border: 1px solid #ccc;
+    line-height: 40px;
+    width: 350px;
+    padding: 0 10px;
+    color: gray;
+    border-radius: 5px;
+    outline: none;
+    opacity: .8;
+}
+
+.input-infor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mess {
+    width: 99%;
+    margin-top: 20px;
+    height: 100px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    opacity: .8;
+}
+
+.btn {
+    width: 200px;
+    height: 40px;
+    text-transform: uppercase;
+    background-color: #e04530;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.btn:hover {
+    background-color: #333;
+    cursor: pointer;
+
+}
+
+.form-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+}

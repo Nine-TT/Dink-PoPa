@@ -1,0 +1,27 @@
+.news-title {
+    color: #000;
+    font-size: 20px;
+}
+
+.item-new-hot {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+    border-bottom: 1px dashed rgb(238, 236, 236);
+}
+
+.image-new-hot {
+    width: 200px;
+    margin-right: 10px;
+}
+
+.infor-news-hot {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content-news-hot:hover {
+    color: #e04530;
+    cursor: pointer;
+}
