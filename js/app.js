@@ -24,16 +24,13 @@ $(document).ready(function () {
 
 
 
-
-
-
 function clickTabMenuHeader(path) {
     $("#main").empty();
     $("#main").load(path)
 }
 
 $(document).ready(function () {
-    
+
 
     $(".active-class ").click(function () {
         $(".active-class ").removeClass("active");
