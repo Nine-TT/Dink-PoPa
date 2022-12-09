@@ -413,7 +413,8 @@
         <div id="product-image">
           
         </div>
-        <input type="number" value="">
+        <div id="product-modal-name"></div>
+       
       </div>
     </div>
   </div>
@@ -422,12 +423,23 @@
 
 <script>
       $(document).ready(function () {
-        $(".slider-products").slick({
-          slidesToShow: 4,
-          slidesToScroll: 1,
-          // autoplay: true,
-          // autoplaySpeed: 3000,
-        });
+        let width = screen.width;
+        if (width <= 400) {
+          $(".slider-products").slick({
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              // autoplay: true,
+              // autoplaySpeed: 3000,
+           });
+        } else {
+              $(".slider-products").slick({
+              slidesToShow: 4,
+              slidesToScroll: 1,
+              // autoplay: true,
+              // autoplaySpeed: 3000,
+          });
+        }
+       
 
         
       $(document).ready(function () {
@@ -436,4 +448,5 @@
         })
       });
 </script>
+<script src="./main.js"></script>
 

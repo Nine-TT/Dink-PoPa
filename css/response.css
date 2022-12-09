@@ -1,7 +1,15 @@
 @import url(../css/variable.css);
 
 @media (max-width: 400px) {
+	body {
+		min-width: 350px;
+	}
+
+
+
 	/* nav */
+
+
 
 	/* header */
 	.nav-container {
@@ -11,9 +19,9 @@
 		z-index: -1;
 		top: 0;
 		right: 0;
-		width: 280px;
-		height: 100%;
-		background: #fff;
+		width: 20px;
+		height: 50%;
+		background: rgb(189, 101, 101);
 		box-shadow: -1px 0 2px rgba(0, 0, 0, 0.2);
 	}
 
@@ -22,6 +30,10 @@
 		align-items: flex-end;
 		margin-top: 80px;
 		width: 100%;
+	}
+
+	.nav-tabs li {
+		width: 300px;
 	}
 
 	.nav-tab:not(:last-child) {
@@ -96,4 +108,12 @@
 			transform: translateX(0);
 		}
 	}
+
+	#main {
+		display: none;
+	}
+
+	#footer {}
+
+
 }

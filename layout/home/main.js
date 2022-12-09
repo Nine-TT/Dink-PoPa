@@ -10,6 +10,7 @@ window.onload = function () {
 
     var imgArr = []
 
+
     btn.forEach(element => {
         var product_name = element.parentElement.parentElement.querySelector(".product-name").textContent;
         var product_img = element.parentElement.parentElement.querySelector("img").src;
@@ -24,6 +25,8 @@ window.onload = function () {
             document.getElementById("header-product-amount").innerHTML = amount;
 
             imgArr = [...imgArr, product_img]
+
+
             var tagImg = ``
             imgArr.forEach((value) => {
                 tagImg += `<img src="${value}" alt="">`
@@ -31,10 +34,8 @@ window.onload = function () {
             })
 
             document.getElementById("product-image").innerHTML = tagImg
+            // document.getElementById("product-modal-name").innerHTML = product_name
 
-
-
-            console.log(imgArr)
         }
     });
 

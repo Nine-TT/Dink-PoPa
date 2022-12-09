@@ -92,3 +92,52 @@
 #product-image img {
     width: 100px;
 }
+
+
+@media (max-width: 400px) {
+    .service {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 350px;
+
+    }
+
+
+
+    .slide-product-content {
+        margin-top: 300px;
+    }
+
+    .slide {
+        height: 200px;
+    }
+
+    .slide-product-content .title a {
+        font-size: 14px;
+    }
+
+    .slide-product-container {
+        width: 100%;
+    }
+
+
+
+    .slider-products .item {
+        margin: 0;
+        margin-left: 55px;
+        width: auto !important;
+        padding: 0;
+        text-align: center;
+        background: #fff linear-gradient(to bottom, rgba(255, 2455, 255, 1), rgba(250, 248, 248, 0.9));
+        box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        height: 200px;
+    }
+
+    .slider-products .item .product-img {
+        width: 200px;
+    }
+
+
+}
